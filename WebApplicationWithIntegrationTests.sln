@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWithIntegrationTests", "WebApplicationWithIntegrationTests\WebApplicationWithIntegrationTests.csproj", "{E8FAB27F-CEC4-4612-AE3E-BF05E52D53CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWithIntegrationTests.Domain", "WebApplicationWithIntegrationTests.Domain\WebApplicationWithIntegrationTests.Domain.csproj", "{33E2A1A5-E319-41B5-BF86-99A71F7685DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWithIntegrationTests.Repositories", "WebApplicationWithIntegrationTests.Repositories\WebApplicationWithIntegrationTests.Repositories.csproj", "{62D1818C-7FC9-442F-9BE7-28D0C57A6BB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWithIntegrationTests.Services", "WebApplicationWithIntegrationTests.Services\WebApplicationWithIntegrationTests.Services.csproj", "{8846EC1F-00AA-4966-AAFC-EBF9D18A34E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationWithIntegrationTests.IntegrationTests", "WebApplicationWithIntegrationTests.IntegrationTests\WebApplicationWithIntegrationTests.IntegrationTests.csproj", "{AD0A9706-78D0-4B99-880B-048FB33DD63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationWithIntegrationTests.Core", "WebApplicationWithIntegrationTests.Core\WebApplicationWithIntegrationTests.Core.csproj", "{B9C57371-63F0-465E-94B4-6DC5583E29EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8FAB27F-CEC4-4612-AE3E-BF05E52D53CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FAB27F-CEC4-4612-AE3E-BF05E52D53CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FAB27F-CEC4-4612-AE3E-BF05E52D53CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FAB27F-CEC4-4612-AE3E-BF05E52D53CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33E2A1A5-E319-41B5-BF86-99A71F7685DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33E2A1A5-E319-41B5-BF86-99A71F7685DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33E2A1A5-E319-41B5-BF86-99A71F7685DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33E2A1A5-E319-41B5-BF86-99A71F7685DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D1818C-7FC9-442F-9BE7-28D0C57A6BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D1818C-7FC9-442F-9BE7-28D0C57A6BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D1818C-7FC9-442F-9BE7-28D0C57A6BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D1818C-7FC9-442F-9BE7-28D0C57A6BB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8846EC1F-00AA-4966-AAFC-EBF9D18A34E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8846EC1F-00AA-4966-AAFC-EBF9D18A34E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8846EC1F-00AA-4966-AAFC-EBF9D18A34E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8846EC1F-00AA-4966-AAFC-EBF9D18A34E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0A9706-78D0-4B99-880B-048FB33DD63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0A9706-78D0-4B99-880B-048FB33DD63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0A9706-78D0-4B99-880B-048FB33DD63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0A9706-78D0-4B99-880B-048FB33DD63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C57371-63F0-465E-94B4-6DC5583E29EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C57371-63F0-465E-94B4-6DC5583E29EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C57371-63F0-465E-94B4-6DC5583E29EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C57371-63F0-465E-94B4-6DC5583E29EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F0FD076-DCD6-48CA-B061-E06DFD187D81}
+	EndGlobalSection
+EndGlobal
